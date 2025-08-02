@@ -12,13 +12,13 @@
       ],
       "links": [
         {
-          "name": "Final Year Project",
-          "href": "https://games.digipen.edu/games/rapid-ride-fight",
+          "name": "Route Runners",
+          "href": "https://devpost.com/software/route-runner-c6b8rx",
           "icon": "globe"
         },
         {
-          "name": "2nd Year Project",
-          "href": "https://games.digipen.edu/games/glowing-under",
+          "name": "BenchMusicPC",
+          "href": "https://github.com/NavPilDev/BenchMusicPC",
           "icon": "globe"
         }
       ]
@@ -29,7 +29,24 @@
       "title": "Diploma in Computer Science",
       "logo": "/ft.jpg",
       "start": "Aug 2019",
-      "end": "May 2022"
+      "end": "May 2022",
+      "links": [
+        {
+          "name": "OG&E Job Progression Application",
+          "href": "https://drive.google.com/file/d/1Skfmg0pv4v-o2sVEe6yaG0DPp1Xn_P6y/view",
+          "icon": "youtube"
+        },
+        {
+          "name": "OG&E Cybersecurity Solution",
+          "href": "https://docs.google.com/document/d/1WvMXP8Hmp4p41v74pBT30qGJY4cTIwJzgLPoX8asJws/edit?usp=sharing",
+          "icon": "globe"
+        },
+        {
+          "name": "Project Saber",
+          "href": "https://drive.google.com/drive/folders/1tVSBHI2sXQA57r45Yb9LB2AzBj0aHoY-?usp=sharing",
+          "icon": "globe"
+        }
+      ]
     },
     {
       "name": "Edmond Memorial High School",
