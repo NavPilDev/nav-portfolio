@@ -1,0 +1,19 @@
+{
+  "socials": [
+    {
+      "name": "LinkedIn",
+      "href": "https://linkedin.com/in/nav-pil/",
+      "icon": "linkedin"
+    },
+    {
+      "name": "GitHub",
+      "href": "https://github.com/NavPilDev",
+      "icon": "github"
+    },
+    {
+      "name": "Email",
+      "href": "mailto:abhinavpillai04@gmail.com",
+      "icon": "mail"
+    }
+  ]
+}

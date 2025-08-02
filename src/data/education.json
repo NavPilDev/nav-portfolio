@@ -1,0 +1,43 @@
+{
+  "education": [
+    {
+      "name": "University of Oklahoma",
+      "href": "https://www.ou.edu",
+      "title": "BS in Computer Science",
+      "logo": "/ou.jpg",
+      "start": "Aug 2022",
+      "end": "May 2026",
+      "description": [
+        "Courses: Data Structures & Algorithms, Computer Organization, Compiler Construction, Operating Systems, Theory of Computation, Algorithm Analysis, Software Engineering, Artificial Intelligence"
+      ],
+      "links": [
+        {
+          "name": "Final Year Project",
+          "href": "https://games.digipen.edu/games/rapid-ride-fight",
+          "icon": "globe"
+        },
+        {
+          "name": "2nd Year Project",
+          "href": "https://games.digipen.edu/games/glowing-under",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
+      "name": "Francis Tuttle Technology Center",
+      "href": "https://www.ftc.edu",
+      "title": "Diploma in Computer Science",
+      "logo": "/ft.jpg",
+      "start": "Aug 2019",
+      "end": "May 2022"
+    },
+    {
+      "name": "Edmond Memorial High School",
+      "href": "https://www.emhs.edu",
+      "title": "High School Diploma",
+      "logo": "/emhs.jpg",
+      "start": "Aug 2018",
+      "end": "May 2022"
+    }
+  ]
+}

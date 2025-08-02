@@ -1,0 +1,165 @@
+{
+  "projects": [
+    {
+      "name": "Route Runners",
+      "description": "A fullstack Next.js web app that allows first responders to send prompts out to drones, enabling them to autonomously scan areas, using generated flight plans, for critical information and help ensure civilian safety. ",
+      "image": "/routerunner.png",
+      "tags": [
+        "React.js",
+        "Next.js",
+        "GPT-4",
+        "SQL",
+        "Docker",
+        "Agisoft Metashape",
+        "WebAR",
+        "iNav",
+        "Mission Planner",
+        "GitHub",
+        "Figma"
+      ],
+      "links": [
+        {
+          "name": "Website",
+          "href": "https://route-runner.webflow.io/",
+          "icon": "globe"
+        },
+        {
+          "name": "Devpost",
+          "href": "https://devpost.com/software/route-runner-c6b8rx",
+          "icon": "globe"
+        },
+        {
+          "name": "Source",
+          "href": "https://github.com/NavPilDev/RouteRunner/tree/development-",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "BenchMusic - Playlist Converter",
+      "description": "A playlist converter that converts Spotify playlists to YouTube playlists and provides AI music recommendations",
+      "image": "/benchmusic.png",
+      "href": "https://github.com/NavPilDev/BenchMusicPC",
+      "tags": [
+        "HTML",
+        "Node.js",
+        "JavaScript",
+        "Next.js",
+        "Python",
+        "Flask",
+        "Figma",
+        "GPT-3",
+        "Spotify API",
+        "Google API"
+      ],
+      "links": [
+        {
+          "name": "Source",
+          "href": "https://github.com/NavPilDev/BenchMusicPC",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "Retro Boomin'",
+      "description": "A virtual museum that allows users to experience and learn about old tech with AI/AR. \n\n ** Won Best Use of A.I. in Education Award in Hacklahoma 2024 **",
+      "href": "https://byte-sized-visions-af5802.webflow.io/",
+      "image": "/rb.jpg",
+      "tags": [
+        "AI/AR",
+        "Webflow",
+        "HTML/CSS/JS",
+        "Hackathon",
+        "dalle-3 API",
+        "GPT API",
+        "Spline",
+        "Figma",
+        "Firebase",
+        "Metaspark AR Studio"
+      ],
+      "links": [
+        {
+          "name": "Website",
+          "href": "https://byte-sized-visions-af5802.webflow.io/",
+          "icon": "globe"
+        },
+        {
+          "name": "Devpost",
+          "href": "https://devpost.com/software/retro-boomin",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "Sudoku Solver",
+      "description": "A text-based JavaScript Sudoku solver, built to solve any 3x3 boards through binary search",
+      "href": "https://github.com/NavPilDev/Sudoku-Solver",
+      "image": "/sudokusolver.png",
+      "tags": ["Java"],
+      "links": [
+        {
+          "name": "Solve!",
+          "href": "https://github.com/NavPilDev/Sudoku-Solver",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
+      "name": "OG&E Job Progression Application",
+      "description": "An application, made in PowerApps, for OG+E that allows supervisors to submit job progression requests for their employees up the hierarchy ",
+      "href": "https://drive.google.com/file/d/1Skfmg0pv4v-o2sVEe6yaG0DPp1Xn_P6y/view",
+      "image": "/ogepowerapp.png",
+      "tags": ["Powerapps", "Moqups"],
+      "links": [
+        {
+          "name": "Video Demo",
+          "href": "https://drive.google.com/file/d/15svnDPG8Xk6TxFtrG1-MPmDUMgEUBlxn/view?usp=sharing",
+          "icon": "youtube"
+        },
+        {
+          "name": "Moqup Video Demo",
+          "href": "https://drive.google.com/file/d/1Skfmg0pv4v-o2sVEe6yaG0DPp1Xn_P6y/view",
+          "icon": "youtube"
+        }
+      ]
+    },
+    {
+      "name": "OG&E Cybersecurity Solution",
+      "description": "A research-based project to give OG+E viable solutions to their current cyber security infrastructure",
+      "href": "https://docs.google.com/presentation/d/13HvJ4KCgpDJpwB-4fpH6ienquQEKt4pA4WvJ17tGo4o/edit?usp=sharing",
+      "image": "/ogesecurity.png",
+      "tags": [
+        "Microsoft Azure",
+        "Two Factor Authentication",
+        "CanaryTokens",
+        "RITA"
+      ],
+      "links": [
+        {
+          "name": "Presentation",
+          "href": "https://docs.google.com/presentation/d/13HvJ4KCgpDJpwB-4fpH6ienquQEKt4pA4WvJ17tGo4o/edit?usp=sharing",
+          "icon": "youtube"
+        },
+        {
+          "name": "Technical Document",
+          "href": "https://docs.google.com/document/d/1WvMXP8Hmp4p41v74pBT30qGJY4cTIwJzgLPoX8asJws/edit?usp=sharing",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
+      "name": "Project Saber",
+      "description": "3D hack and slash with a focus on puzzle-solving and exploration",
+      "href": "https://drive.google.com/drive/folders/1tVSBHI2sXQA57r45Yb9LB2AzBj0aHoY-?usp=sharing",
+      "image": "/saber.png",
+      "tags": ["C#", "Unity", "Blender", "3D"],
+      "links": [
+        {
+          "name": "Download",
+          "href": "https://drive.google.com/drive/folders/1tVSBHI2sXQA57r45Yb9LB2AzBj0aHoY-?usp=sharing",
+          "icon": "globe"
+        }
+      ]
+    }
+  ]
+}

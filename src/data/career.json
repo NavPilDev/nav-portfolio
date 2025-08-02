@@ -1,0 +1,53 @@
+{
+  "career": [
+    {
+      "name": "Vast Vertex Media",
+      "href": "https://vastvertexmedia.com/",
+      "title": "Founding Software Engineer Intern",
+      "logo": "/vvm.png",
+      "start": "Sep 2024",
+      "end": "Apr 2025",
+      "description": [
+        "( Subject to NDA - Only vague details can be shared )",
+        "Developed a full-stack mobile application using React Native/Flutter to display educational media to users",
+        "Built various websites for clients using React/Next.js, Tailwind CSS, Figma, and PostmanAPI"
+      ]
+    },
+    {
+      "name": "University of Oklahoma",
+      "href": "https://www.ou.edu/coe",
+      "title": "Undergraduate Research Assistant (Software Engineering)",
+      "logo": "/ou.jpg",
+      "start": "Aug 2023",
+      "end": "Dec 2024",
+      "description": [
+        "Built GradConnect, a centralized hub for graduate students to access special graduate resources/communities",
+        "Worked on ONEngineering, a full-stack web application (React + Python) with 400+ active users that allows OU Graduate and Alumni Engineering students to connect with university contacts and industry professionals"
+      ],
+      "links": [
+        {
+          "name": "GradConnect",
+          "href": "https://gradconnect.oucreate.com/",
+          "icon": "globe"
+        },
+        {
+          "name": "ONEngineering",
+          "href": "https://onengineering.peoplegrove.com/",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
+      "name": "UFLIP",
+      "href": "https://www.uflip.com",
+      "title": "Software Engineer Intern",
+      "logo": "/uflip.png",
+      "start": "Mar 2023",
+      "end": "Nov 2023",
+      "description": [
+        "Utilized CSS, SASS, Node.js, JS, HTML, and Figma to create an intuitive and scalable user experience",
+        "Improved website startup times by 60% by replacing synchronous code with asynchronous functions and API calls"
+      ]
+    }
+  ]
+}
