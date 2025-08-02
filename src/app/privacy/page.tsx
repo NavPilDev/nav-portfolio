@@ -64,10 +64,9 @@ export default function page() {
         <h2 className="title">Got Questions?</h2>
         <p>
           If you have any questions, concerns, or just want to say hi, drop me
-          an email at{" "}
-          <Link href="mailto:hello@tedawf.com">hello@tedawf.com</Link> or use
-          the <Link href="/contact">contact form</Link>. I&apos;d love to hear
-          from you!
+          an email at <Link href="mailto:abhi@navpil.dev">abhi@navpil.dev</Link>{" "}
+          or use the <Link href="/contact">contact form</Link>. I&apos;d love to
+          hear from you!
         </p>
       </div>
     </article>
