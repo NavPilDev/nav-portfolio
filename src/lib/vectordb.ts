@@ -12,7 +12,7 @@ if (!endpoint || !token || !collection) {
 
 export async function getVectorStore() {
   return AstraDBVectorStore.fromExistingIndex(
-    new OpenAIEmbeddings({ model: "text-embedding-3-small" }),
+    new OpenAIEmbeddings({ model: "text-embedding-ada-002" }),
     {
       token,
       endpoint,

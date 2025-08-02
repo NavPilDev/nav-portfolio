@@ -13,7 +13,8 @@ export async function sendEmail(data: ContactFormInputs) {
   const result = ContactFormSchema.safeParse(data);
 
   if (result.error) {
-    return { error: result.error.format() };
+    // Convert Zod errors to serializable format
+    return { error: "Validation failed. Please check your input." };
   }
 
   try {
@@ -29,12 +30,15 @@ export async function sendEmail(data: ContactFormInputs) {
     });
 
     if (!data || error) {
-      console.error(error?.message);
+      console.error("Resend error:", error);
       throw new Error("Failed to send email!");
     }
 
     return { success: true };
   } catch (error) {
-    return { error };
+    // Convert error to a serializable format
+    const errorMessage = error instanceof Error ? error.message : 'Unknown error occurred';
+    console.error('Send email error:', errorMessage);
+    return { error: errorMessage };
   }
 }
