@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Calistoga, Inter } from "next/font/google";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -29,6 +30,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Analytics />
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased",
