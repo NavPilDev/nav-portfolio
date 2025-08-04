@@ -1,20 +1,19 @@
 # My Personal Portfolio
 
-A clean, minimal portfolio website built with Next.js, Tailwind CSS, and Shadcn UI. Features an AI chatbot, email contact form, and blog.
+This portfolio was heavily inspired by tedawf.com
 
-> Built this for fun and decided to open source it properly after getting lots of requests for permission to copy it!
+A clean, minimal portfolio website built with Next.js, Tailwind CSS, and Shadcn UI. Features an AI chatbot, email contact form, and blog.
 
 ## Live Demo
 
-🌐 Check it out here: **[https://tedawf.com](https://tedawf.com)**
+🌐 Check it out here: **[https://navpil.dev](https://navpil.dev)**
 
-![Portfolio Screenshot](public/tedawf-com-2.png)
+![Portfolio Screenshot](public/navpil-com.png)
 
 ## Features
 
 - Minimal design with Shadcn UI
 - Light/dark mode toggle
-- AI chatbot (Ted Support) trained on my portfolio content - please be nice to him! 😊
 - Contact form with email integration
 - Responsive mobile design
 - Blog section
@@ -33,8 +32,8 @@ A clean, minimal portfolio website built with Next.js, Tailwind CSS, and Shadcn 
 ## Getting Started
 
 ```bash
-git clone https://github.com/tedawf/tedawf.com ted-portfolio
-cd ted-portfolio
+git clone https://github.com/NavPilDev/nav-portfolio nav-portfolio
+cd nav-portfolio
 npm install
 cp .env.example .env.local
 # Add your own API keys to .env.local
@@ -70,20 +69,10 @@ Deploy to Vercel:
 
 ## Costs
 
-- OpenAI API: ~$5
-- Domain: ~$20/year
+- Domain: ~$12/year
 - Hosting/DB: Free tiers
 
 ## License
 
 MIT
 
-## Featured on YouTube!
-
-📺 **[Live Portfolio Review by Anthony Sistilli](https://www.youtube.com/watch?v=aUJiNyb3cvM&t=40s)** - Got reviewed live on his stream!
-
-🔥 [Started a trend?](https://youtu.be/ib-Nlg9qWBw?si=1atsKJyfYDXtFVnE&t=400) - Apparently this portfolio design inspired others!
-
----
-
-Feel free to fork and make it your own! Would love to see what you guys build with it ✨

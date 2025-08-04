@@ -16,6 +16,10 @@ const navLinks = [
     href: "/blog",
   },
   {
+    name: "solve!",
+    href: "/solve",
+  },
+  {
     name: "contact",
     href: "/contact",
   },

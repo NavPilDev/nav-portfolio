@@ -10,7 +10,7 @@ export default function Footer() {
           <p className="text-xs text-muted-foreground">
             &copy; {new Date().getFullYear()}{" "}
             <Link className="link" href="/">
-              abhinavpill.ai
+              navpil.dev
             </Link>{" "}
             |{" "}
             <Link className="link font-bold" href="/privacy">

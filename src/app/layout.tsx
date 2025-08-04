@@ -21,6 +21,32 @@ const calistoga = Calistoga({
 export const metadata: Metadata = {
   title: "Abhinav Pillai - Portfolio",
   description: "My personal site to showcase my developer work and opinions.",
+  metadataBase: new URL("https://navpil.dev"), // Replace with your actual domain
+
+  // Open Graph metadata for social media previews
+  openGraph: {
+    title: "Abhinav Pillai - Portfolio",
+    description: "My personal site to showcase my developer work and opinions.",
+    url: "https://navpil.dev", // Replace with your actual domain
+    siteName: "Abhinav Pillai Portfolio",
+    images: [
+      {
+        url: "/navpil-com.png", // Using your existing image
+        width: 1200,
+        height: 630,
+        alt: "Abhinav Pillai - Developer Portfolio",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+
+  // Favicon
+  icons: {
+    icon: "/icon.ico",
+    shortcut: "/icon.ico",
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({
