@@ -2,10 +2,12 @@ import React from "react";
 
 const page = () => {
   return (
-    <div>
-      <h1 className="title text-balance text-4xl sm:text-5xl">Routoku</h1>
-      <p>Sudoku daily + solver (Coming Soon!)</p>
-    </div>
+    <article className="mt-8 flex flex-col gap-16 pb-16">
+      <div className="space-y-4">
+        <h1 className="title text-5xl">routoku</h1>
+        <p>Sudoku daily + solver (Coming Soon!)</p>
+      </div>
+    </article>
   );
 };
 

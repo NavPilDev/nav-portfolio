@@ -23,15 +23,14 @@ export const metadata: Metadata = {
   description: "My personal site to showcase my developer work and opinions.",
   metadataBase: new URL("https://navpil.dev"), // Replace with your actual domain
 
-  // Open Graph metadata for social media previews
   openGraph: {
     title: "Abhinav Pillai - Portfolio",
     description: "My personal site to showcase my developer work and opinions.",
-    url: "https://navpil.dev", // Replace with your actual domain
+    url: "https://navpil.dev",
     siteName: "Abhinav Pillai Portfolio",
     images: [
       {
-        url: "/navpil-com.png", // Using your existing image
+        url: "/navpil-com.png",
         width: 1200,
         height: 630,
         alt: "Abhinav Pillai - Developer Portfolio",
