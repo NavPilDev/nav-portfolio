@@ -21,7 +21,7 @@ const calistoga = Calistoga({
 export const metadata: Metadata = {
   title: "Abhinav Pillai - Portfolio",
   description: "My personal site to showcase my developer work and opinions.",
-  metadataBase: new URL("https://navpil.dev"), // Replace with your actual domain
+  metadataBase: new URL("https://navpil.dev"),
 
   openGraph: {
     title: "Abhinav Pillai - Portfolio",

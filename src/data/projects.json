@@ -1,6 +1,29 @@
 {
   "projects": [
     {
+      "name": "Candid AI (Coming Soon)",
+      "description": "A full-stack web app that will allow CS Students/Alumni to get mock interview experience with AI. Utilizing ReactJS for the user interface, Python/Flask for a RESTful API backend, and SQL/AWS for data storage",
+      "image": "/candidai.png",
+      "tags": [
+        "React.js",
+        "Next.js",
+        "GPT-4",
+        "Python",
+        "Flask",
+        "SQL",
+        "AWS",
+        "GitHub",
+        "Figma"
+      ],
+      "links": [
+        {
+          "name": "Source",
+          "href": "https://github.com/NavPilDev/CandidAI",
+          "icon": "github"
+        }
+      ]
+    },
+    {
       "name": "Route Runners",
       "description": "A fullstack Next.js web app that allows first responders to send prompts out to drones, enabling them to autonomously scan areas, using generated flight plans, for critical information and help ensure civilian safety. ",
       "image": "/routerunner.png",
@@ -8,7 +31,6 @@
         "React.js",
         "Next.js",
         "GPT-4",
-        "SQL",
         "Agisoft Metashape",
         "WebAR",
         "iNav",
@@ -41,7 +63,6 @@
       "href": "https://github.com/NavPilDev/BenchMusicPC",
       "tags": [
         "HTML",
-        "Node.js",
         "JavaScript",
         "Next.js",
         "Python",
@@ -91,7 +112,7 @@
     },
     {
       "name": "Sudoku Solver",
-      "description": "A text-based JavaScript Sudoku solver, built to solve any 3x3 boards through binary search",
+      "description": "A text-based Java Sudoku solver, built to solve any 3x3 boards through binary search",
       "href": "https://github.com/NavPilDev/Sudoku-Solver",
       "image": "/sudokusolver.png",
       "tags": ["Java"],
