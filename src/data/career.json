@@ -1,6 +1,17 @@
 {
   "career": [
     {
+      "name": "University of Oklahoma",
+      "href": "https://www.ou.edu/coe",
+      "title": "(Software Engineering) Undergraduate Research Assistant",
+      "logo": "/ou.jpg",
+      "start": "Sep 2025",
+      "end": "Present",
+      "description": [
+        "Led and mentored 20+ students in Software Studio by preparing learning programs and fostering professional connections, using Next.js, TailwindCSS, Figma, and LinkedIn"
+      ]
+    },
+    {
       "name": "Vast Vertex Media",
       "href": "https://vastvertexmedia.com/",
       "title": "Founding Software Engineer Intern",
@@ -16,7 +27,7 @@
     {
       "name": "University of Oklahoma",
       "href": "https://www.ou.edu/coe",
-      "title": "Undergraduate Research Assistant (Software Engineering)",
+      "title": "(Software Engineering) Undergraduate Research Assistant",
       "logo": "/ou.jpg",
       "start": "Aug 2023",
       "end": "Dec 2024",
