@@ -1,6 +1,25 @@
 {
   "projects": [
     {
+      "name": "OU William Kerber Software Studio",
+      "description": "A full-stack web application that allows students to learn more about software studio.",
+      "image": "/softwarestudio.png",
+      "tags": [
+        "React.js",
+        "Next.js",
+        "TailwindCSS",
+        "Figma",
+        "Sanity CMS"
+      ],
+      "links": [
+        {
+          "name": "Website",
+          "href": "https://software-studio-ou.vercel.app/",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
       "name": "Candid AI (Coming Soon)",
       "description": "A full-stack web app that will allow CS Students/Alumni to get mock interview experience with AI. Utilizing ReactJS for the user interface, Python/Flask for a RESTful API backend, and SQL/AWS for data storage",
       "image": "/candidai.png",
@@ -115,7 +134,9 @@
       "description": "A text-based Java Sudoku solver, built to solve any 3x3 boards through binary search",
       "href": "https://github.com/NavPilDev/Sudoku-Solver",
       "image": "/sudokusolver.png",
-      "tags": ["Java"],
+      "tags": [
+        "Java"
+      ],
       "links": [
         {
           "name": "Solve!",
@@ -129,7 +150,10 @@
       "description": "An application, made in PowerApps, for OG+E that allows supervisors to submit job progression requests for their employees up the hierarchy ",
       "href": "https://drive.google.com/file/d/1Skfmg0pv4v-o2sVEe6yaG0DPp1Xn_P6y/view",
       "image": "/ogepowerapp.png",
-      "tags": ["Powerapps", "Moqups"],
+      "tags": [
+        "Powerapps",
+        "Moqups"
+      ],
       "links": [
         {
           "name": "Video Demo",
@@ -172,7 +196,12 @@
       "description": "3D hack and slash with a focus on puzzle-solving and exploration",
       "href": "https://drive.google.com/drive/folders/1tVSBHI2sXQA57r45Yb9LB2AzBj0aHoY-?usp=sharing",
       "image": "/saber.png",
-      "tags": ["C#", "Unity", "Blender", "3D"],
+      "tags": [
+        "C#",
+        "Unity",
+        "Blender",
+        "3D"
+      ],
       "links": [
         {
           "name": "Download",
