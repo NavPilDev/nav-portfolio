@@ -31,6 +31,7 @@ export default async function Home() {
           alt="Photo of Abhi"
           width={250}
           height={250}
+          quality={100}
           priority
         />
         <div className="flex max-w-[320px] flex-col sm:max-w-full">
@@ -66,7 +67,7 @@ export default async function Home() {
               className="link font-semibold"
               title="meow"
             >
-              &nbsp;@abhiwankenobi&nbsp;
+              &nbsp;@abhiwanken0bi&nbsp;
             </Link>
           </p>
 
