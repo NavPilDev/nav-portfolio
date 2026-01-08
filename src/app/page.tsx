@@ -61,7 +61,7 @@ export default async function Home() {
           <p className="mt-1 text-xs font-light">
             Outside dev hours, Im here →
             <Link
-              href="https://www.instagram.com/abhiwankenabi/"
+              href="https://www.instagram.com/abhiwanken0bi/"
               target="_blank"
               className="link font-semibold"
               title="meow"
