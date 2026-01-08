@@ -21,7 +21,7 @@
     },
     {
       "name": "Norman Police Department: Call Analysis Tool",
-      "description": "Developed a full-stack application to support the Norman Police Department in evaluating EMS call transcripts for protocol adherence. This tool automates quality assurance by transcribing dispatcher calls and scoring dispatcher performance against official EMS question protocols.",
+      "description": "A full-stack application to support the Norman Police Department in evaluating EMS call transcripts for protocol adherence. This tool automates quality assurance by transcribing dispatcher calls and scoring dispatcher performance against official EMS question protocols.",
       "image": "/npd.png",
       "tags": [
         "React.js",
