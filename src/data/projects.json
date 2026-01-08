@@ -14,13 +14,41 @@
       "links": [
         {
           "name": "Website",
-          "href": "https://software-studio-ou.vercel.app/",
+          "href": "https://softwarestudio.cs.ou.edu/",
           "icon": "globe"
         }
       ]
     },
     {
-      "name": "Candid AI (Coming Soon)",
+      "name": "Norman Police Department: Call Analysis Tool",
+      "description": "Developed a full-stack application to support the Norman Police Department in evaluating EMS call transcripts for protocol adherence. This tool automates quality assurance by transcribing dispatcher calls and scoring dispatcher performance against official EMS question protocols.",
+      "image": "/npd.png",
+      "tags": [
+        "React.js",
+        "Next.js",
+        "TailwindCSS",
+        "Figma",
+        "Python",
+        "Pandas",
+        "Flask",
+        "SQL",
+        "AWS",
+        "GitHub",
+        "Figma",
+        "Ollama",
+        "WhisperX",
+        "CSV"
+      ],
+      "links": [
+        {
+          "name": "Source",
+          "href": "https://github.com/NavPilDev/npd-call-analysis-tool",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "Candid AI",
       "description": "A full-stack web app that will allow CS Students/Alumni to get mock interview experience with AI. Utilizing ReactJS for the user interface, Python/Flask for a RESTful API backend, and SQL/AWS for data storage",
       "image": "/candidai.png",
       "tags": [
