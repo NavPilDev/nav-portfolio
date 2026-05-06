@@ -6,7 +6,7 @@
       "title": "Undergraduate Research Assistant",
       "logo": "/ou.jpg",
       "start": "Sep 2025",
-      "end": "May 2026"
+      "end": "May 2026",
       "description": [
         "Developed an autonomous humanoid receptionist on the Unitree G1 EDU Plus using ROS2, enabling real-time navigation, speaker tracking, and human-aware motion.",
         "Developed an on-device AI pipeline on NVIDIA Jetson Orin NX integrating speech-to-text, LLM-driven dialogue, and retrieval-augmented generation (RAG) for secure, offline company knowledge delivery.",
