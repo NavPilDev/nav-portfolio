@@ -15,11 +15,18 @@
     },
     {
       "name": "Software Studio @ OU",
-      "href": "https://www.ou.edu/coe",
+      "href": "https://softwarestudio.cs.ou.edu/",
       "title": "Startup Mentor & Teaching Assistant",
       "logo": "/softwarestudio.jpg",
       "start": "Sep 2025",
       "end": "Present",
+      "links": [
+        {
+          "name": "Software Studio",
+          "href": "https://softwarestudio.cs.ou.edu/",
+          "icon": "globe"
+        }
+      ],
       "description": [
         "Mentored 40+ students in building and launching production-ready software products, guiding architecture decisions, feature scoping, and MVP development",
         "Led technical workshops on user stories, feature matrices, prototyping, and system design to help teams translate ideas into scalable software solutions",
