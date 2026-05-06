@@ -3,13 +3,27 @@
     {
       "name": "University of Oklahoma",
       "href": "https://www.ou.edu/coe",
-      "title": "(Software Engineering) Undergraduate Research Assistant",
+      "title": "Undergraduate Research Assistant",
+      "logo": "/ou.jpg",
+      "start": "Sep 2025",
+      "end": "May 2026"
+      "description": [
+        "Developed an autonomous humanoid receptionist on the Unitree G1 EDU Plus using ROS2, enabling real-time navigation, speaker tracking, and human-aware motion.",
+        "Developed an on-device AI pipeline on NVIDIA Jetson Orin NX integrating speech-to-text, LLM-driven dialogue, and retrieval-augmented generation (RAG) for secure, offline company knowledge delivery.",
+        "Implemented facial recognition and VIP detection using depth sensing and vision APIs, enabling personalized interactions and adaptive response behaviors for high-profile users."
+      ]
+    },
+    {
+      "name": "Software Studio @ OU",
+      "href": "https://www.ou.edu/coe",
+      "title": "Startup Mentor & Teaching Assistant",
       "logo": "/ou.jpg",
       "start": "Sep 2025",
       "end": "Present",
       "description": [
-        "Led and mentored 40+ students in Software Studio by preparing learning programs and fostering professional connections, using Next.js, TailwindCSS, Figma, and LinkedIn",
-        "Taught lectures on front-end design principles, end-to-end prototyping, system design, and iterative development."
+        "Mentored 40+ students in building and launching production-ready software products, guiding architecture decisions, feature scoping, and MVP development",
+        "Led technical workshops on user stories, feature matrices, prototyping, and system design to help teams translate ideas into scalable software solutions",
+        "Advised founders on product strategy, technical roadmapping, and go-to-market preparation, supporting teams through live investor pitch cycles"
       ]
     },
     {
@@ -28,7 +42,7 @@
     {
       "name": "University of Oklahoma",
       "href": "https://www.ou.edu/coe",
-      "title": "(Software Engineering) Undergraduate Research Assistant",
+      "title": "Undergraduate Research Assistant",
       "logo": "/ou.jpg",
       "start": "Aug 2023",
       "end": "Dec 2024",
