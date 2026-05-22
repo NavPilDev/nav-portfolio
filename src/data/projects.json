@@ -1,6 +1,38 @@
 {
   "projects": [
     {
+      "name": "The Trail - Every Step Forward",
+      "description": "A gamified mobile productivity app that turns focused screen time into trail progress. Combines HealthKit goal sync, Canvas LMS assignment tracking, iOS Device Activity nudges, and Gemini-powered AI insights to help students stay focused and reflect on time well spent. \n\n ** Won Best Use of ElevenLabs at Hacklahoma 2026 **",
+      "image": "/trails.png",
+      "tags": [
+        "React Native",
+        "Expo Router",
+        "iOS Native Module",
+        "Device Activity",
+        "HealthKit",
+        "Canvas API",
+        "Gemini API",
+        "ElevenLabs",
+        "FastAPI",
+        "Python",
+        "MongoDB",
+        "TailwindCSS",
+        "Hackathon"
+      ],
+      "links": [
+        {
+          "name": "Devpost",
+          "href": "https://devpost.com/software/trails-mx0dr9",
+          "icon": "globe"
+        },
+        {
+          "name": "Source",
+          "href": "https://github.com/marbento/The-Trail_Hacklahoma-2026/tree/master",
+          "icon": "github"
+        }
+      ]
+    },
+    {
       "name": "OU William Kerber Software Studio",
       "description": "A full-stack web application that allows students to learn more about software studio.",
       "image": "/softwarestudio.png",
