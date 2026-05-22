@@ -52,6 +52,26 @@
       ]
     },
     {
+      "name": "AI-Ready Nurses",
+      "description": "A statewide initiative website showcasing a nursing-first AI framework that pairs sandboxed AI learning environments with stackable credentials for Oklahoma nurses. Built in partnership with the Oklahoma Center for Nursing, OU Health Campus College of Nursing, and the OU School of Computer Science to address a workforce where 78% of nurses use AI but 91% have received no formal training.",
+      "image": "/aireadynurses.png",
+      "tags": [
+        "React.js",
+        "Next.js",
+        "TailwindCSS",
+        "Figma",
+        "Healthcare AI",
+        "Nursing Education"
+      ],
+      "links": [
+        {
+          "name": "Website",
+          "href": "https://www.aireadynurses.org/",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
       "name": "Norman Police Department: Call Analysis Tool",
       "description": "A full-stack application to support the Norman Police Department in evaluating EMS call transcripts for protocol adherence. This tool automates quality assurance by transcribing dispatcher calls and scoring dispatcher performance against official EMS question protocols.",
       "image": "/npd.png",
