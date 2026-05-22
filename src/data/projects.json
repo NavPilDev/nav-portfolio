@@ -1,6 +1,26 @@
 {
   "projects": [
     {
+      "name": "SourceDoc",
+      "description": "A VSCode + Cursor extension paired with a live tracker that documents copy/paste history and AI-generated code footprints inside the IDE. Surfaces a SourceDoc webview that attributes each portion of a file to its origin (human paste, GitHub Copilot, Cursor Agent), with persistent source history across sessions for transparent AI vibe-coding.",
+      "image": "/sourcedoc.png",
+      "tags": [
+        "TypeScript",
+        "VSCode Extension",
+        "Cursor Extension",
+        "Webview",
+        "Node.js",
+        "AI Provenance"
+      ],
+      "links": [
+        {
+          "name": "Source",
+          "href": "https://github.com/NavPilDev/SourceDoc",
+          "icon": "github"
+        }
+      ]
+    },
+    {
       "name": "The Trail - Every Step Forward",
       "description": "A gamified mobile productivity app that turns focused screen time into trail progress. Combines HealthKit goal sync, Canvas LMS assignment tracking, iOS Device Activity nudges, and Gemini-powered AI insights to help students stay focused and reflect on time well spent. \n\n ** Won Best Use of ElevenLabs at Hacklahoma 2026 **",
       "image": "/trails.png",

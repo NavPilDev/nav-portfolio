@@ -4,7 +4,9 @@ import Posts from "@/components/Posts";
 import Projects from "@/components/Projects";
 import Socials from "@/components/Socials";
 import { Button } from "@/components/ui/Button";
+import projectData from "@/data/projects.json";
 import { getPosts } from "@/lib/posts";
+import { projectSchema } from "@/lib/schemas";
 import {
   ArrowDown,
   ArrowDownRight,
@@ -21,6 +23,7 @@ const LIMIT = 2; // max show 2
 
 export default async function Home() {
   const posts = await getPosts(blogDirectory, LIMIT);
+  const totalProjects = projectSchema.parse(projectData).projects.length;
 
   return (
     <article className="mt-8 flex flex-col gap-16 pb-16">
@@ -92,7 +95,7 @@ export default async function Home() {
             href="/projects"
             position="right"
             icon={<ArrowRightIcon className="size-5" />}
-            text="view more"
+            text={`view ${totalProjects} more`}
           />
         </div>
         <Projects limit={LIMIT} />
