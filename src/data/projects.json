@@ -1,9 +1,38 @@
 {
   "projects": [
     {
+      "name": "resumake.cv",
+      "description": "A local-first AI Powered Resume toolkit that allow for users to generate resumes and support material creation for job applications. This project supports web scraping, applicaiton tracking, and company research synthesis via Ollama and RAG-powered vector database for quick, and accurate retrieval of relevant information.",
+      "featured": true,
+      "image": "/resumake.png",
+      "tags": [
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS",
+        "Python",
+        "Flask",
+        "Ollama",
+        "RAG",
+        "Vector Database"
+      ],
+      "links": [
+        {
+          "name": "Source",
+          "href": "https://github.com/NavPilDev/resumake.cv",
+          "icon": "github"
+        },
+        {
+          "name": "Blog Post",
+          "href": "https://www.navpil.dev/blog/resumake.cv",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
       "name": "SourceDoc",
       "description": "A VSCode + Cursor extension paired with a live tracker that documents copy/paste history and AI-generated code footprints inside the IDE. Surfaces a SourceDoc webview that attributes each portion of a file to its origin (human paste, GitHub Copilot, Cursor Agent), with persistent source history across sessions for transparent AI vibe-coding.",
       "image": "/sourcedoc.png",
+      "featured": true,
       "tags": [
         "TypeScript",
         "VSCode Extension",
@@ -24,6 +53,7 @@
       "name": "The Trail - Every Step Forward",
       "description": "A gamified mobile productivity app that turns focused screen time into trail progress. Combines HealthKit goal sync, Canvas LMS assignment tracking, iOS Device Activity nudges, and Gemini-powered AI insights to help students stay focused and reflect on time well spent. \n\n ** Won Best Use of ElevenLabs at Hacklahoma 2026 **",
       "image": "/trails.png",
+      "featured": true,
       "tags": [
         "React Native",
         "Expo Router",
@@ -146,6 +176,7 @@
       "name": "Route Runners",
       "description": "A fullstack Next.js web app that allows first responders to send prompts out to drones, enabling them to autonomously scan areas, using generated flight plans, for critical information and help ensure civilian safety. ",
       "image": "/routerunner.png",
+      "featured": true,
       "tags": [
         "React.js",
         "Next.js",

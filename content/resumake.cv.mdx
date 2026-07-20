@@ -1,0 +1,60 @@
+---
+title: "Developing a local-first AI Powered Resume Toolkit"
+summary: "Resumake is a local-first AI Powered Resume toolkit that allow for users to generate resumes and support material creation for job applications. This project supports web scraping, applicaiton tracking, and company research synthesis via Ollama and RAG-powered vector database for quick, and accurate retrieval of relevant information."
+image: "/resumake.png"
+publishedAt: "2026-07-20"
+---
+
+# Resumake
+
+![ColorMatte-ezgif com-optimize](https://github.com/user-attachments/assets/92d23987-5a3e-4fc2-982a-13eb82bf0753)
+
+Resumake aims to provide job-seekers a fast and easy way to curate tailored resumes and supporting materials based on their experience matched with web crawled job descriptions, ats scores, and ai improvements.
+
+## Why I built Resumake
+
+As I am currently in the process of finding a job, I found that I spent alot of time on tailoring my resume in sites such as overleaf via LaTeX. This would be things such changing out projects for others that were more relevant to job descriptions, or adding more detail here and there. 
+
+Now don't get me wrong, LaTeX is great, but it does take longer than it needs to take for simple modifications of pdf documents. This is especially exlemplifed if you don't know how to use LaTeX well. Earlier this summer, I introduced my friends to overleaf and subsequently LaTeX. My friends. who were just starting out with LaTeX, found its commands and intricate type definitions to be confusing. Though, they interestingly noted that the platform would provide great value to them if they knew how to work LaTeX effeciently.
+
+Lastly, I always felt privacy concerns for where my resume information was going when using services such as chatgpt, overleaf, and simplify to refine my resume for recruiting seasons. It felt like my information was being sold, in the face of something being provided for "free".
+
+To alleviate these problems with the job process, I have created resumake.cv to make tailoring resumes and procuring supporting materials such as cover letters, reference sheets, company research, and case studies as easy as possible. 
+
+The process is made to be very easy, where anyone can come into the platform and move things around within their resume very quickly, without being held back by knowledge of a language like LaTeX(although there is also LaTeX support built in!). The process of switching experience(jobs, projects, and more), is made blazingly fast due to the centralized experience.yaml file that every user is onboarded with. To help eliminate privacy concerns, There is also a local ollama agent that helps procure the relevant information for creating these materials. A detailed explanation is provided below.
+
+## Current Features: In Depth
+
+- My Experience(Experience bank) -- experience.yaml is the single source of truth for your work history, projects, education, certifications, and skills. When users first open the app, they are prompted to fill out the "My Experience" page where they can build or edit their experience visually from the My Experience tab instead of hand-editing YAML or LaTeX, including importing from existing resumes (PDF/Markdown/text/JSON) via local Ollama extraction, with a compare view when multiple sources disagree. 
+  - This experience bank will be used to quickly switch jobs, projects, and other details on your resume very easily in when constructing supporting materials.
+
+- Tailor Resume -- In the "Tailor Resume" page, paste a job description and get every bullet in your experience bank scored 0–100 against it, either instantly via keyword overlap or, more thoroughly, via a local Ollama model that scores section-by-section and explains why a bullet scored low.
+  - Skill gap detection — Surfaces job description keywords/phrases your bullet bank doesn't cover. These keywords/phrases are filtered against a stopword list and cross-checked via ollama to provide accurate skill gaps for the user to recognize when constructing a tailored resuime.
+
+  - Bullet improvement — low-scoring bullets get an "Improve with Ollama" rewrite suggestion with a before/after diff; every bullet also supports direct inline editing.
+
+  - Tailored resume generation — generates a .tex file, with the users selection of what to include based on ai suggestions of best fits, and compiles it to a page-fit PDF via latexmk. If the service finds that the resume is over your specified page limit, it will automatically trimming the weakest bullets/sections (in priority order) until it fits your page budget, with every trim reported.
+
+- My Resumes -- The "My Resume" tab allow for users to create custom resumes from there experience bank, allowing users to easily toggle what experience they want to show. Users are able to use the simplified form input, as well as edit in LaTeX if they are more comfortable with that.
+
+## Planned updates
+I am still working on resumake.cv, and there is still a long ways to go before I stop working on the project. The following features are being planned to release soon:
+
+- Company notes (Not Implemented Yet) -- In this page users will be able to syntesize company research about the job position they are applying for. This is done via a lightweight template for capturing per-company research before applying or interviewing, that an ollama web scraper will report its findings too. These findings include any publicly avaiable information about the company, team, or contacts that the user can use to get ahead in the job process. Users will also be able to add their own edits via the resumake ide, and will be able to download the .tex and .pdf directly from the site.
+
+- Application tracker -- In this page, users will be able to autonomusly track their application, without having to manually add to a csv everytime they go to apply. Users will be prompted to link their gmail or zoho accounts to the application tracker, where they are guided to setup a folder in their inbox for job applications. For every hour that resumake is open, or whenever resumake opens(whichever comes first), an ollama agent will search through this inbox to automatically update the status of your applicaitons in a csv so you don't have to. It will also give you reminders on when to follow up with recruiters if you havent heard back from them in a while.
+
+- Project Suggestion -- Users will be able to get suggested projects that they should work on next based on their experience, so that they know exactly what next steps to take to excel in their careers. An ollama agent will look at your exprience and find gaps based on recently inputted job descriptions, that will allow you progress faster at your craft.
+
+- Settings -- Currently there are no settings in the app. I plan to add settings such as an ollama model picker, light mode and themes, as well as other settings as they come up in user feedback. 
+
+- Latex Suggestions -- Still debating on adding this, but for the users that edit in latex, there will be an option to tab complete suggestions from the ollama agent to fill in experience as users are typing. I'm not sure how hard this will be to implement, so I am holding off on it.
+
++ Even More Features to Come
+
+## Transitioning to Source-Available contribution
+I am currently in the process of allowing for the code to be contributed to by anyone using a source-available license. This will allow for the app to evolve to the communities standards, and will also allow for the app to be customized the users liking and effeciency. 
+
+Check out resumake here: https://github.com/NavPilDev/resumake.cv
+
+Thank you for reading this far :)
