@@ -19,7 +19,7 @@ import path from "path";
 
 const blogDirectory = path.join(process.cwd(), "content");
 const NAV_BIRTH_YEAR = 2004;
-const LIMIT = 2; // max show 2
+const LIMIT = 4; // max show 2
 
 export default async function Home() {
   const posts = await getPosts(blogDirectory, LIMIT);

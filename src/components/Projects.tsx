@@ -9,7 +9,7 @@ interface Props {
 export default function Projects({ limit }: Props) {
   let projects = projectSchema.parse(data).projects;
   if (limit) {
-    projects = projects.slice(0, limit);
+    projects = projects.filter((project) => project.featured).slice(0, limit);
   }
 
   return (
