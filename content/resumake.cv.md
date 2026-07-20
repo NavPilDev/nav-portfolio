@@ -7,9 +7,11 @@ publishedAt: "2026-07-20"
 
 # Resumake
 
+
 Resumake aims to provide job-seekers a fast and easy way to curate tailored resumes and supporting materials based on their experience matched with web crawled job descriptions, ats scores, and ai improvements.
 
 ## Why I built Resumake
+<img width="1010" height="195" alt="whyibuilt" src="https://github.com/user-attachments/assets/028f3833-8c0f-4af8-8552-2c8a1406c69b" />
 
 As I am currently in the process of finding a job, I found that I spent alot of time on tailoring my resume in sites such as overleaf via LaTeX. This would be things such changing out projects for others that were more relevant to job descriptions, or adding more detail here and there. 
 
@@ -22,6 +24,7 @@ To alleviate these problems with the job process, I have created resumake.cv to 
 The process is made to be very easy, where anyone can come into the platform and move things around within their resume very quickly, without being held back by knowledge of a language like LaTeX(although there is also LaTeX support built in!). The process of switching experience(jobs, projects, and more), is made blazingly fast due to the centralized experience.yaml file that every user is onboarded with. To help eliminate privacy concerns, There is also a local ollama agent that helps procure the relevant information for creating these materials. A detailed explanation is provided below.
 
 ## Current Features: In Depth
+<img width="1010" height="195" alt="features2" src="https://github.com/user-attachments/assets/3aba6d54-a8e5-4d54-9027-62b91b3eb6a5" />
 
 - My Experience(Experience bank) -- experience.yaml is the single source of truth for your work history, projects, education, certifications, and skills. When users first open the app, they are prompted to fill out the "My Experience" page where they can build or edit their experience visually from the My Experience tab instead of hand-editing YAML or LaTeX, including importing from existing resumes (PDF/Markdown/text/JSON) via local Ollama extraction, with a compare view when multiple sources disagree. 
   - This experience bank will be used to quickly switch jobs, projects, and other details on your resume very easily in when constructing supporting materials.
@@ -36,6 +39,8 @@ The process is made to be very easy, where anyone can come into the platform and
 - My Resumes -- The "My Resume" tab allow for users to create custom resumes from there experience bank, allowing users to easily toggle what experience they want to show. Users are able to use the simplified form input, as well as edit in LaTeX if they are more comfortable with that.
 
 ## Planned updates
+<img width="1010" height="195" alt="plannedUpdates" src="https://github.com/user-attachments/assets/9f5bcb2d-3342-4b0e-9a8d-29886b366f43" />
+
 I am still working on resumake.cv, and there is still a long ways to go before I stop working on the project. The following features are being planned to release soon:
 
 - Company notes (Not Implemented Yet) -- In this page users will be able to syntesize company research about the job position they are applying for. This is done via a lightweight template for capturing per-company research before applying or interviewing, that an ollama web scraper will report its findings too. These findings include any publicly avaiable information about the company, team, or contacts that the user can use to get ahead in the job process. Users will also be able to add their own edits via the resumake ide, and will be able to download the .tex and .pdf directly from the site.
@@ -51,6 +56,8 @@ I am still working on resumake.cv, and there is still a long ways to go before I
 + Even More Features to Come
 
 ## Transitioning to Source-Available contribution
+<img width="1010" height="195" alt="source-available" src="https://github.com/user-attachments/assets/7b8af701-f5f4-4022-8491-6d67fbc9d0fd" />
+
 I am currently in the process of allowing for the code to be contributed to by anyone using a source-available license. This will allow for the app to evolve to the communities standards, and will also allow for the app to be customized the users liking and effeciency. 
 
 Check out resumake here: https://github.com/NavPilDev/resumake.cv
